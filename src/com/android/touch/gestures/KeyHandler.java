@@ -365,13 +365,11 @@ public class KeyHandler implements DeviceKeyHandler {
             return;
         }
 
-        if (mAudioManager.getRingerMode() != AudioManager.RINGER_MODE_SILENT) {
-            final boolean enabled = Settings.System.getInt(mContext.getContentResolver(),
-                    Settings.System.TOUCHSCREEN_GESTURE_HAPTIC_FEEDBACK, 1) != 0;
-            if (enabled) {
-                mVibrator.vibrate(VibrationEffect.createOneShot(50,
-                        VibrationEffect.DEFAULT_AMPLITUDE));
-            }
+        final boolean enabled = Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.TOUCHSCREEN_GESTURE_HAPTIC_FEEDBACK, 1) != 0;
+        if (enabled) {
+            mVibrator.vibrate(VibrationEffect.createOneShot(50,
+                    VibrationEffect.DEFAULT_AMPLITUDE));
         }
     }
 
