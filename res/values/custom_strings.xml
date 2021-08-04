@@ -53,5 +53,7 @@
     <string name="touchscreen_gesture_action_wake_device">Wake device</string>
     <string name="touchscreen_gesture_action_wechat_pay">Wechat Pay</string>
     <string name="touchscreen_gesture_action_alipay_pay">Alipay Pay</string>
+    <string name="touchscreen_gesture_action_wechat_scan">Wechat Scan</string>
+    <string name="touchscreen_gesture_action_alipay_scan">Alipay Scan</string>
 
 </resources>

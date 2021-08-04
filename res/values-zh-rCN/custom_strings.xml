@@ -46,4 +46,6 @@
     <string name="touchscreen_gesture_action_wake_device">唤醒设备</string>
     <string name="touchscreen_gesture_action_wechat_pay">微信付款码</string>
     <string name="touchscreen_gesture_action_alipay_pay">支付宝付款码</string>
+    <string name="touchscreen_gesture_action_wechat_scan">微信扫码</string>
+    <string name="touchscreen_gesture_action_alipay_scan">支付宝扫码</string>
 </resources>
