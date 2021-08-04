@@ -48,4 +48,5 @@
     <string name="touchscreen_gesture_action_alipay_pay">支付宝付款码</string>
     <string name="touchscreen_gesture_action_wechat_scan">微信扫码</string>
     <string name="touchscreen_gesture_action_alipay_scan">支付宝扫码</string>
+    <string name="touchscreen_gesture_action_alipay_trip">支付宝出行</string>
 </resources>

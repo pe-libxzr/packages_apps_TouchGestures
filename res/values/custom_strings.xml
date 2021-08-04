@@ -55,5 +55,6 @@
     <string name="touchscreen_gesture_action_alipay_pay">Alipay Pay</string>
     <string name="touchscreen_gesture_action_wechat_scan">Wechat Scan</string>
     <string name="touchscreen_gesture_action_alipay_scan">Alipay Scan</string>
+    <string name="touchscreen_gesture_action_alipay_trip">Alipay Trip</string>
 
 </resources>
